@@ -1,3 +1,38 @@
-body {
-  background-image: url("../images/seamless-starfield-texture.tiff");
+html {
+  font-family: "Ubuntu Condensed";
+  background-image: url("../images/starfield.png");
+  color: #fff;
+}
+
+.grid {
+  text-align: center;
+}
+
+.btn-ghost {
+  color: #b4fff4;
+  border-radius: 8px;
+}
+
+.tena {
+  text-shadow: rgba(255, 255, 255, .7);
+}
+
+nav {
+  background-color: rgba(180, 255, 244, .2);
+  text-decoration: none;
+  border-color: #90ccc3;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #b4fff4;
+}
+
+nav:hover {
+  background-color: rgba(180, 255, 244, .2);
+  color: #b4fff4;
+}
+
+nav:focus nav:active{
+  z-index: auto;
 }
