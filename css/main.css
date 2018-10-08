@@ -8,20 +8,17 @@ html {
   text-align: center;
 }
 
-.btn-ghost {
-  color: #b4fff4;
-  border-radius: 8px;
-  transition: 250ms ease-in-out;
-}
-
-.tena {
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, .7);
+.tena,
+.giga {
+  text-shadow: 0 0 4px rgba(255, 255, 255, .7);
 }
 
 nav {
-  background-color: rgba(180, 255, 244, .2);
   text-decoration: none;
   border-color: #90ccc3;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }
 
 nav > a {
@@ -29,12 +26,28 @@ nav > a {
   color: #b4fff4;
 }
 
-nav:hover {
-  background-color: rgba(180, 255, 244, .2);
+.btn-ghost {
   color: #b4fff4;
-  border: 8px;
+  border-radius: 8px;
+  transition: 250ms ease-in-out;
 }
 
-nav:focus nav:active {
-  z-index: auto;
+.btn {
+  box-shadow: 0 9px rgba(180, 255, 244, .2);
+  border: 2px solid #90ccc3;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: rgba(180, 255, 244, .2);
+  border: 2px solid #90ccc3;
+}
+
+.btn:active {
+  box-shadow: 0 5px rgba(180, 255, 244, .2);
+  transform: translateY(4px);
+}
+
+.icon:hover {
+  transform: translateY(-4px);
 }
