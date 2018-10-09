@@ -32,12 +32,20 @@ nav > a {
   transition: 250ms ease-in-out;
 }
 
+.btn-ghost:active {
+  top: -.2em;
+}
+
 .btn {
   box-shadow: 0 9px rgba(180, 255, 244, .2);
   border: 2px solid #90ccc3;
 }
 
 .btn:focus,
+.btn:visited {
+  background-color: rgba(180, 255, 244, .2);
+}
+
 .btn:hover {
   background-color: rgba(180, 255, 244, .2);
   border: 2px solid #90ccc3;
